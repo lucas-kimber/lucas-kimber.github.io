@@ -25,3 +25,4 @@ logs
 
 # Generated Configs
 *.lock
+package-lock.json
