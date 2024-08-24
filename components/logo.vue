@@ -3,7 +3,7 @@
         <p class="lg-first">Lucas</p>
         <p class="lg-last">Kimber</p>
         <div class="lg-deco"></div>
-        <marquee direction="up" behavior="alternate" height="18px" truespeed scrolldelay="500" class="lg-sub">Computer Scientist<br/>Zootopia Enjoyer<br/>Playboy Philathropist</marquee>
+        <div class="lg-sub">Software Developer</div>
     </div>
 </template>
 <style lang="scss">
