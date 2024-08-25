@@ -21,6 +21,7 @@
 }
 
 .lg-first {
+    padding-left: 12px;
     font-weight: 200;
     font-size: 30px;
 }
@@ -45,6 +46,7 @@
 }
 
 @media screen and (max-width: 340px){
+
     .lg-first {
         margin-left: 50px;
     }

@@ -87,7 +87,6 @@ body {
     bottom: 0;
     left: 45%;
   }
-
   
   .b1 {
     left: 45%;
