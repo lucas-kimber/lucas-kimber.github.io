@@ -1,6 +1,5 @@
 <template>
     <div>
-        <p>Employment</p>
         <Timeline 
             pos="Teaching Assistant, Royal Holloway" 
             location="Egham" 
