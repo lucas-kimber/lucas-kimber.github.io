@@ -25,7 +25,7 @@
     margin-right: 10px;
     transition: all 0.2s;
     &:hover {
-        fill: orange;
+        fill: #0072b1;
     }
     svg {
         height: 30px;
