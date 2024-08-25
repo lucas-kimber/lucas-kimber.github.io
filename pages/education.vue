@@ -1,27 +1,20 @@
 <template>
     <div class="content-scroll-box">
         <Timeline 
-            pos="Teaching Assistant, Royal Holloway" 
-            location="Egham" 
-            start="September 2023" 
-            end="present">Teaching C and Python programming courses</Timeline>
+            pos="University College London"
+            location="London"
+            start="Sep. 2024"
+            end="Present">MSc in Software Systems Engineering</Timeline>
         <Timeline 
-            pos="Software Engineer, Arqit" 
-            location="London" 
-            start="June 2023" 
-            end="September 2023">Used Cypress, Cucumber, and Gherkin to automate 
-            end-to-end integration tests.</Timeline>
-        <Timeline 
-            pos="Teaching Assistant, Royal Holloway" 
+            pos="Royal Holloway University" 
             location="Egham" 
-            start="September 2023" 
-            end="present">Teaching C and Python programming courses</Timeline>
+            start="Sep. 2020" 
+            end="Jun. 2024">First Class Honours, BSc Computer Science w/ YINI</Timeline>
         <Timeline 
-            pos="Teaching Assistant, Royal Holloway" 
-            location="Egham" 
-            start="September 2023" 
-            end="present">Teaching C and Python programming courses</Timeline>
-
+            pos="Ashford School" 
+            location="Kent" 
+            start="Sep. 2018" 
+            end="Jul. 2020">A*A*A* in Computer Science, Maths, and Religious Studies</Timeline>
     </div>
 </template>
 <script setup>
