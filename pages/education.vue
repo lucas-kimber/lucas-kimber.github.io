@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="content-scroll-box">
         <Timeline 
             pos="Teaching Assistant, Royal Holloway" 
             location="Egham" 
