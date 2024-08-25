@@ -50,6 +50,11 @@ body {
   z-index: 10;
   padding-top: 50px;
   padding-right: 35px;
+  max-height: 100vh;
+}
+
+.content-scroll-box {
+  padding-bottom: 15px;
 }
 
 .panel {
@@ -61,7 +66,8 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.6);
-
+  max-height: 100vh;
+  
   
   .p1,.p2,.p3 {
     background-color: rgb(20,20,20);
@@ -133,6 +139,7 @@ body {
       right: 0;
       bottom: 0;
       top: 200px;
+      position: fixed;
     }
     .b1 {
       left: -30px;
@@ -145,6 +152,7 @@ body {
       height: 176px;
       top: 110px;
       right: 0px;
+      position: fixed;
     }
     .p2 {
       top: 120px;
@@ -155,8 +163,10 @@ body {
   .sidebar {
     left: 15px;
     right: 15px;
-    top: 170px;
+    top: 220px;
     padding-right: 0;
+    padding-top: 0px;
+    overflow: scroll;
 
     .brand {
       scale: 0.8;

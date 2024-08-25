@@ -45,4 +45,30 @@ h2 {
     flex-shrink: 0;
     padding-left: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .tl-head {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .content {
+        padding-left: 0;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 340px){
+  
+}
+
 </style>
