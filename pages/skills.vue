@@ -4,6 +4,13 @@
             title="Languages"
             :skillarr="lang"
         />
+        <Skills
+            title="Tools"
+            :skillarr="tools"/>
+        <Skills
+            title="Methodologies"
+            :skillarr="methodologies"/>
+        
     </div>
 </template>
 <script setup>
@@ -16,6 +23,27 @@ const lang = ref([
     "Typescript",
     "SQL",
     "C#",
+])
+
+const tools = ref([
+    "Tauri",
+    "Cargo",
+    "Git",
+    "Azure",
+    "GitLab and Azure Pipelines",
+    "Gherkin / Cypress / Cucumber",
+    "Maven",
+    "JUnit"
+])
+
+const methodologies = ref([
+    "TDD",
+    "BDD",
+    "Scrum",
+    "Agile",
+    "Lean",
+    "DevOps",
+    "End-to-End Testing",
 ])
 
 </script>
