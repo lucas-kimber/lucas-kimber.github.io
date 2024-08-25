@@ -31,14 +31,19 @@
 
 body {
   background-color: black;
-  background-image: url(./public/background.png);
+  background-image: url(./public/background.jpg);
   background-attachment: fixed;
   background-position: -150px center;
   background-size: auto 100%;
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: white;
+}
 
+@media (min-aspect-ratio: 16/9) {
+  body {
+    background-position: left center;
+  }
 }
 
 .sidebar {
@@ -128,7 +133,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     background-position: left top;
-    background-size: 100% auto;
+    background-size: 130% auto;
   }
   .panel {
     .p3, .b3 {
