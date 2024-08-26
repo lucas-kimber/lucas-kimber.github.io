@@ -24,13 +24,11 @@
 <style lang="scss" scoped>
 .sk-item {
     font-family: "Poppins", sans-serif;
-    margin: 50px;
 }
 .sk-head {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 10px;
 }
 h1 {
     font-size: 16px;
@@ -40,6 +38,7 @@ h1 {
 .content {
     margin: 0;
     padding-left: 20px;
+    padding-bottom: 20px;
     
     ul {
         list-style: none;
