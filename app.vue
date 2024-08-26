@@ -36,6 +36,8 @@ body {
   background-attachment: fixed;
   background-position: -150px center;
   background-size: auto 100%;
+  position: fixed;
+  overflow: hidden;
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: white;
