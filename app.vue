@@ -11,9 +11,10 @@
     </div>
     <div class="sidebar">
       <Logo /> <Socials />
-      <p class="intro">I am a Computer Scientist with a particular interest in software development and security, refined by my work experience in industry. 
-        My undergraduate degree has equipped me with the fundamental principles of software engineering, and now I hope to grow this knowledge, 
-        and eventually work on cutting edge development projects in industry.</p>
+      <p class="intro">I am a Computer Scientist an interest in software development, refined by my work experience in developer roles. My
+        BSc has equipped me with the fundamental principles of CS and software engineering, and now I am growing this
+        knowledge with a Masters at UCL. Following this, I hope to utilise my skills to work on emerging technologies in
+        industry.</p>
 
       <Nav />
 
