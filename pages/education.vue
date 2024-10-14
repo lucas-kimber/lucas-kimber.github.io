@@ -1,10 +1,10 @@
 <template>
     <div class="content-scroll-box">
         <Timeline 
-            pos="University College London"
+            pos="Imperial College London"
             location="London"
             start="Sep. 2024"
-            end="Present">MSc in Software Systems Engineering</Timeline>
+            end="Present">MSc in Computing (Software Engineering)</Timeline>
         <Timeline 
             pos="Royal Holloway University" 
             location="Egham" 
@@ -17,7 +17,3 @@
             end="Jul. 2020">A*A*A* in Computer Science, Maths, and Religious Studies</Timeline>
     </div>
 </template>
-<script setup>
-
-
-</script>

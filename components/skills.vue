@@ -31,7 +31,7 @@
     align-items: baseline;
 }
 h1 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
     margin: 0;
 }
@@ -49,12 +49,8 @@ h1 {
     
         & > li {
             margin-right: 10px;
-            font-size: 1.4rem;
+            font-size: 0.8em;
         }
     }
 }
-
-
-
-
 </style>
