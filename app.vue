@@ -13,7 +13,7 @@
       <Logo /> <Socials />
       <p class="intro">I am a Computer Scientist with an interest in software development, refined by my work experience in developer roles. My
         BSc has equipped me with the fundamental principles of CS and software engineering, and now I am growing this
-        knowledge with a Masters at UCL. Following this, I hope to utilise my skills to work on emerging technologies in
+        knowledge with a Masters at Imperial College London. Following this, I hope to utilise my skills to work on emerging technologies in
         industry.</p>
 
       <Nav />
