@@ -12,7 +12,7 @@
             end="Sep. 2023">Used Cypress, Cucumber, and Gherkin to automate 
             end-to-end integration tests.</Timeline>
         <Timeline
-            pos="Embedded Software Engineer"
+            pos="Embedded Software Engineer, ABB Ltd."
             location="St. Neots"
             start="Jun. 2022"
             end="Jun. 2023">Worked on embedded measurement and analytics systems</Timeline> 
