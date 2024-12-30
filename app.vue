@@ -41,6 +41,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: white;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 @media (min-aspect-ratio: 16/9) {
