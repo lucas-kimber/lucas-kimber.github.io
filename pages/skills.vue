@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="content-scroll-box">
         <Skills
             title="Languages"
             :skillarr="lang"

@@ -41,7 +41,6 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   color: white;
-  padding-bottom: env(safe-area-inset-bottom);
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -63,7 +62,7 @@ body {
 }
 
 .content-scroll-box {
-  padding-bottom: 15px;
+  padding-bottom: 20%;
 }
 
 .panel {
