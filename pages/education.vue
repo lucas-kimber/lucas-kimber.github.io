@@ -4,7 +4,7 @@
             pos="Imperial College London"
             location="London"
             start="Sep. 2024"
-            end="Present">MSc in Computing (Software Engineering)</Timeline>
+            end="Present">MSc in Advanced Computing (MAC)</Timeline>
         <Timeline 
             pos="Royal Holloway University" 
             location="Egham" 
