@@ -1,0 +1,35 @@
+version: '3'
+
+tasks:
+    dev:
+        cmds:
+            - docker compose up
+
+    dev:open:
+        cmds:
+            - docker compose up -d
+            - |
+                until curl -fsS http://localhost:3000 >/dev/null; do
+                    sleep 1
+                done
+            - xdg-open http://localhost:3000
+
+    down:
+        cmds:
+            - docker compose down
+
+    build:
+        cmds:
+            - docker compose build
+
+    shell:
+        cmds:
+            - docker compose run --rm web sh
+
+    generate:
+        cmds:
+            - docker compose run --rm web yarn generate
+    
+    lock:
+        cmds:
+            - docker compose run --rm web yarn install --registry https://registry.npmjs.org --network-timeout 300000

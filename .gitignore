@@ -22,7 +22,3 @@ logs
 .env
 .env.*
 !.env.example
-
-# Generated Configs
-*.lock
-package-lock.json
