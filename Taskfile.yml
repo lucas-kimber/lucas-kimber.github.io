@@ -1,11 +1,13 @@
 version: '3'
 
 tasks:
-    dev:
+    default:
+        desc: Show available tasks.
         cmds:
-            - docker compose up
+            - task --list
 
-    dev:open:
+    open:
+        desc: Start the container and open the site in the browser.
         cmds:
             - docker compose up -d
             - |
@@ -15,21 +17,21 @@ tasks:
             - xdg-open http://localhost:3000
 
     down:
+        desc: Stop and remove the container.
         cmds:
             - docker compose down
 
     build:
+        desc: Build the Docker image.
         cmds:
             - docker compose build
 
     shell:
+        desc: Open a shell inside the container.
         cmds:
             - docker compose run --rm web sh
 
-    generate:
-        cmds:
-            - docker compose run --rm web yarn generate
-    
     lock:
+        desc: Generate or update yarn.lock.
         cmds:
             - docker compose run --rm web yarn install --registry https://registry.npmjs.org --network-timeout 300000
