@@ -35,3 +35,17 @@ tasks:
         desc: Generate or update yarn.lock.
         cmds:
             - docker compose run --rm web yarn install --registry https://registry.npmjs.org --network-timeout 300000
+    
+    update-cv:
+        desc: Takes a filepath CVPATH and updates the site to use the corresponding CV.
+        requires:
+            vars:
+                - CVPATH
+        preconditions:
+            - sh: test "$(git branch --show-current)" = "main"
+              msg: Must be on main to update CV.
+        cmds:
+            - cp "{{.CVPATH}}" public/lucas_kimber_cv.pdf
+            - git add public/lucas_kimber_cv.pdf
+            - git commit -m "Updated CV"
+            - git push origin main
